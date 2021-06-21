@@ -398,6 +398,24 @@
             </li>
           </ul>
         </div>
+
+        <form class="subscribe">
+          <p class="footer-title">подпишитесь на рассылку</p>
+          <div class="form">
+            <input
+              class="input-mail"
+              type="email"
+              name="mail"
+              placeholder="E-mail"
+            />
+            <button class="button" type="submit">
+              Подписаться
+              <svg class="send-icon" width="24" height="24">
+                <use href="./images/icons.svg/send.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
 
@@ -408,6 +426,61 @@
             <use href="./images/icons.svg/cross.svg#icon-cross"></use>
           </svg>
         </button>
+
+        <form class="user-form">
+          <p class="caption-form">Оставьте свои данные, мы вам перезвоним</p>
+          <label class="label-form">
+            <span class="text-form">Имя</span>
+            <span class="field-form"
+              ><input class="input-form" type="text" name="name" required />
+              <svg class="icon-form" width="18" height="18">
+                <use href="./images/icons.svg/form.svg#icon-person"></use>
+              </svg>
+            </span>
+          </label>
+
+          <label class="label-form">
+            <span class="text-form">Телефон</span>
+            <span class="field-form"
+              ><input class="input-form" type="tel" name="tel" required />
+              <svg class="icon-form" width="18" height="18">
+                <use href="./images/icons.svg/form.svg#icon-tel"></use>
+              </svg>
+            </span>
+          </label>
+
+          <label class="label-form">
+            <span class="text-form">Почта</span>
+            <span class="field-form"
+              ><input class="input-form" type="email" name="email" required />
+              <svg class="icon-form" width="18" height="18">
+                <use href="./images/icons.svg/form.svg#icon-mail"></use>
+              </svg>
+            </span>
+          </label>
+
+          <label class="label-form">
+            <span class="text-form">Комментарий</span>
+            <textarea
+              class="comment"
+              name="comment"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+
+          <label class="agree-form"
+            ><input
+              class="check-form"
+              type="checkbox"
+              name="check-form"
+              required
+            /><span class="check-icon none"></span>Соглашаюсь с рассылкой и
+            принимаю&nbsp<a class="link-form" href="">
+              Условия договора</a
+            ></label
+          >
+          <button class="button btn-send" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
 
